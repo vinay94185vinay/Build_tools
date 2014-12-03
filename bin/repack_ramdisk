@@ -1,1 +1,1 @@
-find . | cpio -o -H newc | gzip > ../$1.cpio.gz
+find . | cpio -o -H newc | gzip > ../ramdisk.cpio.gz
